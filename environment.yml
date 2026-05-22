@@ -1,0 +1,24 @@
+name: hsssmnet
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - tqdm
+  - pillow
+  - h5py
+  - pytorch=2.1.2
+  - torchvision
+  - pytorch-cuda=11.8
+  - tensorboard
+  - pip:
+      - opencv-python
+      - scikit-image
+      - onnx
+      - onnxruntime-gpu
