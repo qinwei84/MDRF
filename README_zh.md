@@ -8,7 +8,6 @@
 - `hmsmnet/`：用于验证 MDRF 的 HMSMNet baseline/宿主框架。
 - `psmnet/`：用于验证 MDRF 可迁移性的 PSMNet baseline/宿主框架。
 - `experiments/`：不同阶段的 MDRF 插入骨架，包括 feature、refinement、3D hourglass、cost-volume fusion、all-stages，以及 PSMNet 的 SPP/3D 聚合迁移实验。
-- `scripts/`：单对影像推理脚本，需要用户自己提供权重。
 - `weights/`：论文接收后用于放官方权重的预留目录。
 - `splits/`：论文接收后用于放 WHU-Stereo 和 US3D split 的预留目录。
 - `environment.yml`：本项目原始 conda 环境。
@@ -16,10 +15,8 @@
 ## 当前刻意不放什么
 
 - 真实 `MDRFConv` / `MDRFConv3D` 实现。
-- 训练入口、训练函数、optimizer/scheduler 细节。
 - 数据集 split 文件。
-- checkpoint、TensorBoard 日志、预测 tiff、中间实验产物。
-- 本机绝对路径和私有实验配置。
+- checkpoint。
 
 不过目录口子已经留好，论文接收后建议放在：
 
