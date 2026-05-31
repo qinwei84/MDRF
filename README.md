@@ -21,9 +21,8 @@ This repository is a pre-acceptance public preview of the MDRF implementation fr
 ## Not Included in This Preview
 
 - Official `MDRFConv` and `MDRFConv3D` source code.
-- Training scripts, training loops, optimizer schedules, and dataset split files.
-- Pretrained weights, intermediate checkpoints, logs, and prediction outputs.
-- Local machine paths or private experiment configuration.
+- dataset split files.
+- Pretrained weights.
 
 Reserved folders are already provided for post-acceptance release assets:
 
