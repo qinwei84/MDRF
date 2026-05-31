@@ -4,7 +4,7 @@ This repository is a preliminary public preview for the **Multi-scale Dynamic Re
 
 ## Status
 
-This is a pre-acceptance preview. The current package intentionally excludes the official MDRF/MDRF3D operator implementation, training entry points, dataset split files, trained checkpoints, TensorBoard logs, and generated prediction rasters. The public files currently provide the host backbones, staged insertion skeletons, environment setup, and inference utilities.
+This repository is a pre-acceptance public preview of the MDRF implementation framework. The current release provides the host backbones, stage-level MDRF insertion skeletons, stage-specific placement configurations, dilation-rate settings, environment setup, and configuration files needed to inspect the integration design before acceptance. Following the staged release plan, the official MDRFConv/MDRFConv3D operator source files and trained checkpoints are temporarily withheld and will be added in the final public release after acceptance.
 
 ## Included
 
