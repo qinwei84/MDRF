@@ -20,6 +20,5 @@ After formal release, replace `mdrf/mdrf_conv.py` with the official implementati
 - `hmsmnet_all_stages_mdrf/`: combines the feature, 3D aggregation/fusion, and refinement insertions.
 - `psmnet_spp_mdrf/`: replaces the PSMNet SPP-style context branch with a 2D MDRF branch.
 - `psmnet_3d_aggregation_mdrf/`: inserts 3D MDRF into PSMNet cost-volume aggregation.
-- `psmnet_pre_spp_mdrf_refiner/`: adds a 2D MDRF feature refiner before the original PSMNet SPP branch.
 
 Training scripts, data splits, checkpoints, and prediction outputs are intentionally excluded.
