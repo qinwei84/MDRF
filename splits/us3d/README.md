@@ -1,11 +1,19 @@
 # US3D Split
 
-Reserved for the US3D split files. The paper follows the MaskCRNet/Rao2024-style split protocol for US3D. The formal release should provide the exact file lists used by this project when the paper is accepted.
+This directory contains the US3D split used in this project. The split follows the MaskCRNet/Rao2024-style protocol used for the paper experiments.
 
-Expected files after acceptance:
+Files:
 
 ```text
 train.txt
 val.txt
 test.txt
 ```
+
+Each line stores four dataset-relative paths:
+
+```text
+left_image right_image disparity_map label_map
+```
+
+The dataset root is the US3D directory containing `JAX/` and `OMA/`. Counts are 4191 train pairs, 49 validation pairs, and 49 test pairs.
