@@ -18,12 +18,6 @@ The paper has been accepted, so this package now includes the official `MDRFConv
 - `environment.yml`: the original conda environment used in this project.
 - `README_zh.md`: Chinese usage notes.
 
-## Not Included in This Source Package
-
-- Training scripts, training loops, and optimizer schedules.
-- Intermediate checkpoints, logs, and prediction outputs.
-- Local machine paths or private experiment configuration.
-
 The split folders use portable dataset-relative paths:
 
 ```text
