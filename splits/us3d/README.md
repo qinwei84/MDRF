@@ -16,4 +16,4 @@ Each line stores four dataset-relative paths:
 left_image right_image disparity_map label_map
 ```
 
-The dataset root is the US3D directory containing `JAX/` and `OMA/`. Counts are 4191 train pairs, 49 validation pairs, and 49 test pairs.
+The dataset root is the US3D directory containing `JAX/` and `OMA/`. Counts are 4192 train pairs, 50 validation pairs, and 50 test pairs.
